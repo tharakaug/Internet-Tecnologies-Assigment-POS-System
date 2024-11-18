@@ -76,7 +76,11 @@
 }
 .ord-btn {
   display: flex;
+  button{
+    color: black;
+  }
 }
+
 #cusId{
     margin-bottom: 0.5rem;
 }
