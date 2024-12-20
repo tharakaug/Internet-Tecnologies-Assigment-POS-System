@@ -8,7 +8,7 @@
 }
 
 body {
-  min-height: 510vh;
+  min-height: 415vh;
   overflow-x: hidden;
 }
 
@@ -66,7 +66,7 @@ td {
   top: 0;
   right: 0;
   width: 100vw;
-  height: 10vh;
+  height: 7vh;
   background-color: #457b9d;
   display: flex;
   text-decoration: none;
@@ -77,7 +77,7 @@ td {
     display: inline;
     margin-right: 40px;
     a {
-      font-size: 22px;
+      font-size: 28px;
       text-decoration: none;
       color: white;
       text-align: center;
@@ -85,7 +85,8 @@ td {
   }
 }
 .dashboard {
-  min-height: 100vh;
+  margin-top: 3vh;
+  min-height: 50vh;
 }
 .content {
   position: relative;
@@ -99,7 +100,10 @@ td {
 }
 
 .content .cards #card {
-  margin-top: 70px;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
   width: 250px;
   height: 150px;
   background-color: white;
@@ -109,13 +113,13 @@ td {
   align-items: center;
   justify-content: space-around;
   h1{
-    font-size: 23px;
+    font-size: 35px;
     font-weight: bold;
     color: #444;
     margin-bottom: 0px;
   }
   h3{
-    font-size: 23px;
+    font-size: 30px;
     font-weight: bold;
     color: #999;
   }
@@ -143,6 +147,17 @@ td {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   flex-direction: column;
+  margin-left: 4vw;
+  table{
+    font-size: 20px;
+  }
+}
+.title {
+  h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #444;
+  }
 }
 .content .content-2 .new-students {
   flex: 2;
@@ -150,6 +165,10 @@ td {
   min-height: 50vh;
   margin: 0 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 4vw;
+  table{
+    font-size: 20px;
+  }
 }
 .content .content-2 .new-students table td:nth-child(1) img {
   height: 40px;
